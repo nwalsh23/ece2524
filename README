@@ -1,0 +1,1 @@
+The module of change_grade.py searches the string for a name and then changes the grade of the corresponding name with a standard arguement. My orginial change_grades did not work 100%
