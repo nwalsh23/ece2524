@@ -2,7 +2,24 @@
 
 import re,fileinput,stderr,argv
 
-for line in fileinput.input();
-	m=re.search(argv[1],line)
+def changegrade(data,first_string number)
+
+
+
+
+
+for line in data;
+	m=re.search(first_string,line)
 	if m:
-		print re.sub('[%s]'%string.digits,argv[2],line)
+		print re.sub('[%s]'%string.digits,number,line)
+
+	return data;
+
+if__name__='__main__':
+	from sys import stdin,stdout,stderr argv
+	
+	
+	(data)=changegrade(stdin, argv[1], argv [2])
+		
+	 
+	
