@@ -1,0 +1,5 @@
+Your code looks solid. More commenting is always helpful.
+
+In terms of keeping it more in line with the UNIX philosophy, you may want to make your code more generic. By doing that, it can be more applicable and modular.
+
+For instance, right now your code takes a student's name and replaces his grade. You may want to just adjust the code so that it works as a find and replace function for any string, not just in the context of student's grades.
